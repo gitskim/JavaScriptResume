@@ -1,1 +1,1 @@
-$("#main").append(suhyun);
+$("#main").append("suhyun");
