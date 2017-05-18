@@ -6,3 +6,7 @@ var formattedRole = HTMLheaderRole.replace("%data%", role);
 
 $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
+
+var skills = ["Java", "C"];
+$("#main").append(skills);
+console.log(skills.length);
