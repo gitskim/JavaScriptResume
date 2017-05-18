@@ -1,10 +1,8 @@
-$("#main").append(name);
-var name = "suhyun and hannah";
-var first = "hi";
-var age = 32;
-name = name.replace("and", "says");
-
-console.log(name);
-
+var name = "Suhyun Kim";
 var formattedName = HTMLheaderName.replace("%data%", name);
-$("#header").append(formattedName.prepend(name));
+
+var role = "Android developer";
+var formattedRole = HTMLheaderRole.replace("%data%", role);
+
+$("#header").prepend(formattedRole);
+$("#header").prepend(formattedName);
