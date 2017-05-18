@@ -6,7 +6,5 @@ name = name.replace("and", "says");
 
 console.log(name);
 
-// what is %data%?
-// what is $("header")
 var formattedName = HTMLheaderName.replace("%data%", name);
-$("#header").append(formattedName);
+$("#header").append(formattedName.prepend(name));
