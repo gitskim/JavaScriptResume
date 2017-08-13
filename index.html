@@ -27,7 +27,6 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 </head>
 <body>
   <div id="main">
-
     <!--
     Everything from here to the <script> tag below is the skeleton of your
     website. Your code will add information to each of the sections of the
@@ -98,20 +97,6 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
   -->
 
   <script>
-    // Notice how all of a sudden there's JavaScript inside this HTML
-    // document? You can write JavaScript between <script> tags. At the end of your
-    // JavaScript, don't forget the closing script tag with the slash (/).
-
-
-    // Also, this is a JavaScript style comment. You can comment in JavaScript with:
-
-    //   two slashes for all following characters on a single line, or
-
-    /*
-        an opening and closing set of slash asterisks for block comments.
-    */
-
-
     if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('topContacts').style.display = 'none';
     }
@@ -124,9 +109,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
     if(document.getElementsByClassName('project-entry').length === 0) {
       document.getElementById('projects').style.display = 'none';
     }
-    if(document.getElementsByClassName('education-entry').length === 0) {
-      document.getElementById('education').style.display = 'none';
-    }
+    // if(document.getElementsByClassName('education-entry').length === 0) {
+    //   document.getElementById('education').style.display = 'none';
+    // }
     if(document.getElementsByClassName('flex-item').length === 0) {
       document.getElementById('lets-connect').style.display = 'none';
     }

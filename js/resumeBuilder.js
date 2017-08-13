@@ -8,5 +8,20 @@ $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
 
 var skills = ["Java", "C"];
+
+var education = ["name", "year"];
+education["name"] = "Rutgers University";
+education["year"] = "2010-2014";
+
 $("#main").append(skills);
+$("#main").append(education);
+
 console.log(skills.length);
+
+function displayWork() {
+ for (job in work.jobs) {
+
+ }
+}
+
+displayWork();
